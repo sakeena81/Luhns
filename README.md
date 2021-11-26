@@ -1,9 +1,12 @@
+
 # Luhns
 Luhns Algorithm implemented into C# functions
 
 The algorithm I want to discuss here is called the Luhn Algorithm. It is also known as the mod 10 check. The Luhn algorithm is a simple checksum formula used to validate a variety of identification numbers, but the most common use is credit card numbers. The algorithm was invented by an IBM scientist, Hans Peter Luhn. Hence the name given.
 
 This formula verifies a number against its included check digit which is usually appended to a partial account number to generate the full account number. This number must pass the following test.
+
+ ![Apps run](Luhns/luhns.png)
 
 1. Starting from the right hand side of the card number, skip the last digit.
 2. Double every other number.
